@@ -9,3 +9,7 @@ Built Bootstrap, Aos, Sass, Gulp
 `npm install`
 
 `gulp copy`
+
+##Demo
+
+https://carrubo.github.io/tinyone/
