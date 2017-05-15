@@ -41,15 +41,14 @@ gulp.task('copy', function() {
     gulp.src(['node_modules/jquery/dist/jquery.js', 'node_modules/jquery/dist/jquery.min.js'])
         .pipe(gulp.dest('lib/jquery'))
 
+    gulp.src(['node_modules/font-awesome/fonts/*'])
+          .pipe(gulp.dest('lib/font-awesome/fonts'))
+
     gulp.src([
-            'node_modules/font-awesome/**',
-            '!node_modules/font-awesome/**/*.map',
-            '!node_modules/font-awesome/.npmignore',
-            '!node_modules/font-awesome/*.txt',
-            '!node_modules/font-awesome/*.md',
-            '!node_modules/font-awesome/*.json'
+            'node_modules/font-awesome/css/*',
+            '!node_modules/font-awesome/css/*.map',
         ])
-        .pipe(gulp.dest('lib/font-awesome'))
+        .pipe(gulp.dest('lib/font-awesome/css'))
 
 
     gulp.src([
