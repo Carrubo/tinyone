@@ -4,12 +4,12 @@ Web implementatio of tinyone Psd template https://designsmaz.com/freebies/tinyon
 
 Built Bootstrap, Aos, Sass, Gulp
 
-##Usage
+## Usage
 
 `npm install`
 
 `gulp copy`
 
-##Demo
+## Demo
 
 https://carrubo.github.io/tinyone/
